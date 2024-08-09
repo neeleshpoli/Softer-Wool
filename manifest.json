@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "11f44a9d-65f7-4652-bffe-8da6e85cb247",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "2ed33328-7689-4ced-98ba-857aa759184d",
+            "version": [1, 0, 0]
+        }
+    ],
+    "metadata": {
+        "authors": ["wesellinsurance"],
+        "license": "MIT",
+        "url": "https://github.com/neeleshpoli/softer-wool"
+    }
+}
