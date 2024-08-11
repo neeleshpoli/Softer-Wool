@@ -1,0 +1,17 @@
+on:
+    push:
+        branches:
+          - main
+
+jobs:
+    compress:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v4
+
+          - run: zip -r softer-wool.mcpack texts textures manifest.json pack_icon.png
+
+          - uses: actions/upload-artifact@v4
+            with:
+                name: softer-wool
+                path: ./softer-wool.mcpack
